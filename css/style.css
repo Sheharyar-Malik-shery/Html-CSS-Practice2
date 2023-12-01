@@ -1,0 +1,396 @@
+* {
+    margin: 0%;
+    padding: 0%;
+
+}
+body{
+    background-color: #000;
+}
+
+#nav-bar {
+    position: relative;
+    background-color: rgb(72, 70, 70);
+
+
+}
+
+/*#nav-bar::before{
+    content: "";
+   background-color: black;
+   height: 100%;
+   width: 100%;
+   position: absolute;
+   z-index: -1;
+   opacity: 0.2;
+}*/
+
+#nav-bar div {
+    display: flex;
+    align-items: center;
+    height: 30px;
+}
+#ion a{
+    padding-left: 38px;
+}
+#nav-bar div h3 {
+    display: inline;
+    margin-left: 80px;
+    color: aliceblue;
+    padding: 2px;
+    font-size: large;
+}
+
+.fas {
+    color: white;
+
+}
+
+.searchbutton {
+    margin-left: 60rem;
+}
+
+.fa-solid {
+    color: white;
+
+}
+
+.hamburger {
+    color: black;
+}
+
+hr {
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+#nav-bar ul {
+    display: flex;
+    justify-content: center;
+}
+
+#nav-bar ul li {
+    list-style: none;
+
+}
+
+#nav-bar ul li a {
+    display: block;
+    margin: 12px;
+    font-size: large;
+    text-decoration: none;
+    color: white;
+}
+
+#nav-bar ul li a:hover {
+
+    color: white;
+    background-color: gray;
+    border-radius: 6px;
+}
+
+#home {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+#home::before {
+    content: "";
+    background: url('../images/bgimage1.jpg') no-repeat center center/cover;
+    height:100%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.6;
+
+}
+
+#home div {
+    width: 50%;
+    height: 100%;
+    border: 1px solid black;
+    border-radius: 9px;
+    background-color: transparent;
+    display: block;
+    justify-content: center;
+    margin-top: 220px;
+    margin-bottom: 10px;
+
+}
+
+#home div p {
+    margin-left: 9px;
+    font-size: larger;
+   
+}
+#home div{
+    background-color: white;
+    
+}
+#home div h2 {
+    margin-left: 12rem;
+}
+
+#home div button {
+    background-color: turquoise;
+    margin-left: 18rem;
+    margin-bottom: 14px;
+    margin-top: 7px;
+    border-radius: 8px;
+    padding: 2px;
+    height: 22px;
+
+}
+
+#product {
+    border: 2px solid black;
+    margin-top: 7rem;
+    background-color: rgb(224, 198, 198);
+    
+
+}
+section #headings{
+    display: flex;
+    align-items: center;
+    
+}
+#headings h3{
+    margin-left: 145px;
+    margin-top: 40px;
+    background-color: blueviolet;
+    color: white;
+    height: 2px;
+    width: 70px;
+    padding: 30px;
+    padding-top: 9px;
+    padding-right: 40px;
+    padding-left: 40px;
+    border-radius: 8px;
+    text-size-adjust: large;
+
+}
+#product h2{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    position: relative;
+}
+h2::before{
+    content: "";
+    display: block;
+    background:#000 ;
+    height: 2px;
+    width: 495px;
+    position: absolute;
+    left: 89px;
+    top: 15px;
+}
+h2::after{
+    content: "";
+    display: block;
+    background:#000 ;
+    height: 2px;
+    width: 493px;
+    position: absolute;
+    right: 85px;
+   top: 16px;
+}
+#item1 {
+    display: flex;
+}
+
+#product div #p1 {
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 1px;
+    margin-top: 40px;
+    margin-left: 102px;
+    margin-bottom: 50px;
+    height: 200px;
+    width: 200px;
+    background-color: #000;
+   
+  
+}
+#product div #p1 img{
+    height: 150px;
+    width: 150px;
+    border-radius: 78px;
+    margin-left: 21px;
+    margin-top: 20px;
+ 
+}
+#about-us{
+    border: 1p solid black;
+    height: 200px;
+}
+#about-us button{
+    background-color: chocolate;
+    color: white;
+    margin-left: 45%;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    padding: 2px;
+    text-size-adjust: small;
+
+}
+#se3{
+    border: 1px solid rgb(146, 142, 142);
+    padding: 40px;
+    height: 25rem;
+   
+    
+}
+ section #se3 h2{
+    margin-top: 60px;
+    margin-left:44%;
+    color: aliceblue;
+}
+#se3 p{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    margin-left:100px;
+    margin-right: 40px;
+    font-style: oblique;
+    font-size: large;
+    color: aliceblue;
+
+}
+#about-us::before {
+    content: "";
+    background: url('../images/contact.jpg') no-repeat center center/cover;
+    height: 80%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.6;
+}
+ div #p2{
+    padding-left: 270px;
+    padding-right: 210px;
+}
+#peo-rea{
+    border: 1p solid black;
+    height: 200px;}
+
+#peo-rea::before {
+    content: "";
+    background: url('../images/bgimage2.jpg') no-repeat center center/cover;
+    height: 73%;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    opacity: 0.6;
+}
+section #seo{
+   height: 25rem;
+    padding-top: 5rem;
+    border: 2px solid rgb(118, 99, 75);
+}
+section  #seo h2{
+    padding-left: 22rem;
+    padding-bottom: 2rem;
+    color: white;
+}
+section div #p2{
+    margin-bottom: 2rem;
+    color: white;
+}
+
+section #peo-rea  div h2{
+    padding-left: 9rem;
+}
+ section  #multi-items{
+     margin-top: 18rem;
+    border: 2px solid antiquewhite;;
+    position: relative;
+    height: 25rem;
+    background-color: antiquewhite;
+    display: flex;
+}
+
+section div h1{
+    padding-left: 6rem;
+    padding-top: 1em;
+}
+
+
+section #multi-items li{
+    list-style: none;
+  
+    padding-top: 15px;
+    
+}
+section #right-li{
+    margin-top: 40px;
+    padding-top: 40px;
+}
+section #right-li li{
+ 
+  padding-left: 40px;
+   
+}
+section #information{
+    padding-top: 20px;
+    margin-top: 9px;
+}
+section #information li{
+    margin-left: 60px;
+    padding-left: 33px;
+    padding-top: 14px;
+
+}
+
+
+
+section #My-Account{
+  margin-top: 31px;
+}
+section #My-Account li{
+    padding-left: 101px;
+}
+section #follow-us{
+   margin-top: 55px;
+   padding-left: 114px;
+}
+#follow-us h3{
+    margin-left: 12px;
+    
+}
+#follow-us li{
+    display: inline-block;
+    margin-left: 5px;
+    padding-left: 5px;
+    
+}
+
+
+
+section #follow-us h1{
+    margin-bottom: 15px;
+}
+section #news-letter{
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+section #email{
+    margin-top: 18px;
+     padding-top: 2px;
+     margin-left: 94px;
+     border-radius: none;
+}
+section #btn{
+    margin-left: 93px;
+    background-color: bisque;
+    padding: 5px;
+    width: 102px;
+}
+.footer{
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+  
